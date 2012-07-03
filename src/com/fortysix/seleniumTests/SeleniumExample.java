@@ -45,7 +45,7 @@ public class SeleniumExample {
         // Wait for the page to load, timeout after 10 seconds
         (new WebDriverWait(driver, 10)).until(new ExpectedCondition<Boolean>() {
             public Boolean apply(WebDriver d) {
-                return d.getTitle().toLowerCase().startsWith("cheese!");
+                return d.getTitle().toLowerCase().startsWith("asdf!");
             }
         });
 
