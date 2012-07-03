@@ -17,8 +17,9 @@ public class TestMain {
     static Logger logger = Logger.getLogger("mainLogger");
     public static void main(String[] args) {
         logger.log(Level.INFO, "Hello world!");
-        WebDriver firefoxDriver = new FirefoxDriver();
-        SeleniumExample example = new SeleniumExample(firefoxDriver);
-        example.testGoogleSearch();
+        logger.log(Level.INFO, "HI CHIARE");
+        //WebDriver firefoxDriver = new FirefoxDriver();
+        //SeleniumExample example = new SeleniumExample(firefoxDriver);
+        //example.testGoogleSearch();
     }
 }
